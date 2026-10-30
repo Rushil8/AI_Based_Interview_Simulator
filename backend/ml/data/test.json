@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "q_sample_00044",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 61,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a cache and why is Redis used alongside databases?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01031",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 79,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between authentication and authorization?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01072",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 56,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does consistent hashing work and how does it prevent hot spots in distributed cache clusters?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between a process and a thread?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00858",
+    "role": "Backend Engineer",
+    "target_competency": "Adaptability (STAR-Based)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 66,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "mid",
+    "optimal_question": "What's the most significant change you've had to adapt to at work?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Adaptability sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What's the most significant change you've had to adapt to at work?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00988",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 49,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "What happens when a cache expires (cache stampede / thundering herd) and how do you prevent it?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What happens when a cache expires (cache stampede / thundering herd) and how do you prevent it?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you design a globally distributed leaderboard handling 100k updates/second with event-driven streaming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00138",
+    "role": "Backend Engineer",
+    "target_competency": "Leadership (Behavioral)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 86,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Describe a time you led a project or team.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a time you led a project or team.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What drives your passion for this field?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What's the most significant change you've had to adapt to at work?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00893",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 35,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review the basics: what is latency versus throughput in backend systems?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review the basics: what is latency versus throughput in backend systems?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00240",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (Behavioral)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 70,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "junior",
+    "optimal_question": "What kind of growth opportunities are you looking for?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What drives your passion for this field?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00918",
+    "role": "Full Stack Engineer",
+    "target_competency": "Conflict Resolution (STAR-Based)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 72,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you deal with feedback that you disagree with?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Conflict Resolution sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What skills do you hope to develop in your next role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you had to learn something completely new quickly.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00749",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 65,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "mid",
+    "optimal_question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between an INNER JOIN, LEFT JOIN, and FULL OUTER JOIN?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00711",
+    "role": "Backend Engineer",
+    "target_competency": "Culture Fit (Situational)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 48,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "mid",
+    "optimal_question": "Describe a time you felt out of place in a workplace culture.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a time you felt out of place in a workplace culture.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Where do you see yourself in 5 years?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00517",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 62,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is SQL injection and how do parameterized queries prevent it?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01145",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 93,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a cache and why is Redis used alongside databases?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00392",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 56,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between an INNER JOIN, LEFT JOIN, and FULL OUTER JOIN?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00261",
+    "role": "Full Stack Engineer",
+    "target_competency": "Leadership (Behavioral)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 91,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Describe a time you led a project or team.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a time you led a project or team.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Tell me about a time you had to learn something completely new quickly.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What tools or methods help you stay organized?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00089",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 42,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's step back: why does blocking code inside an async coroutine freeze the entire event loop?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's step back: why does blocking code inside an async coroutine freeze the entire event loop?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain actor-model concurrency versus communicating sequential processes (CSP) in distributed engines.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00314",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 78,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the purpose of HTTP status codes: 200, 201, 400, 401, 403, and 500.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01092",
+    "role": "Full Stack Engineer",
+    "target_competency": "Leadership (Situational)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 58,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you motivate others in a leadership role?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you motivate others in a leadership role?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Where do you see yourself in 5 years?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe your ideal workday.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00413",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 50,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "Why are idempotent API retries critical when network timeouts occur?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Why are idempotent API retries critical when network timeouts occur?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00971",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 86,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the purpose of a load balancer in web architecture?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00617",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 64,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how B-Tree indexes work internally in PostgreSQL and why index selectivity matters.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the difference between props and state in React with an example.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00702",
+    "role": "Backend Engineer",
+    "target_competency": "Career Goals (Behavioral)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 80,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "junior",
+    "optimal_question": "What kind of growth opportunities are you looking for?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00153",
+    "role": "Backend Engineer",
+    "target_competency": "Conflict Resolution (STAR-Based)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 66,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you deal with feedback that you disagree with?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Conflict Resolution sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are your expectations from leadership in a company?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you respond when a teammate isn't pulling their weight?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00202",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 89,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is vertical scaling versus horizontal scaling?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00912",
+    "role": "Full Stack Engineer",
+    "target_competency": "Adaptability (Open-Ended)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 51,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "junior",
+    "optimal_question": "Tell me about a time you had to learn something completely new quickly.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Adaptability sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Tell me about a time you had to learn something completely new quickly.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Why do you want to work at our company?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00395",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 81,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do Content Security Policy (CSP) headers protect modern Single Page Applications?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the difference between props and state in React with an example.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00390",
+    "role": "Backend Engineer",
+    "target_competency": "Work Style (Open-Ended)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 70,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "senior",
+    "optimal_question": "Do you prefer working independently or in teams? Why?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Work Style sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Do you prefer working independently or in teams? Why?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What skills do you hope to develop in your next role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What are your expectations from leadership in a company?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00084",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 82,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you handle disagreements within a team?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you handle disagreements within a team?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you align with our company values?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you ensure productivity when working remotely?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01176",
+    "role": "Backend Engineer",
+    "target_competency": "Motivation (STAR-Based)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 46,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you stay motivated during repetitive tasks?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Motivation sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you stay motivated during repetitive tasks?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you motivate others in a leadership role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What type of company culture do you thrive in?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00267",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 76,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "Describe a project where teamwork was essential to success.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are your expectations from leadership in a company?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00217",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 70,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is vertical scaling versus horizontal scaling?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00178",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 86,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Explain zero-trust architecture principles and how mTLS ensures secure service-to-service communication.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Explain zero-trust architecture principles and how mTLS ensures secure service-to-service communication.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how B-Tree indexes work internally in PostgreSQL and why index selectivity matters.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Why should passwords never be stored in plain text and what is password salting?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00786",
+    "role": "Full Stack Engineer",
+    "target_competency": "Culture Fit (Situational)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 48,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you contribute to a positive team environment?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you contribute to a positive team environment?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Why do you want to work at our company?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you worked well within a team.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00430",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 42,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "What headers are involved in content negotiation and pre-flight CORS requests?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What headers are involved in content negotiation and pre-flight CORS requests?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Architect a zero-downtime blue-green API deployment pipeline handling breaking database schema migrations.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00565",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 36,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "junior",
+    "optimal_question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you build a lock-free ring buffer for ultra-low latency inter-process communication?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00487",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 61,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "mid",
+    "optimal_question": "How do Content Security Policy (CSP) headers protect modern Single Page Applications?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do Content Security Policy (CSP) headers protect modern Single Page Applications?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Why should passwords never be stored in plain text and what is password salting?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00761",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 41,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "Can you walk through what happens when an event handler calls setState multiple times?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Can you walk through what happens when an event handler calls setState multiple times?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do Content Security Policy (CSP) headers protect modern Single Page Applications?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01083",
+    "role": "Full Stack Engineer",
+    "target_competency": "Conflict Resolution (STAR-Based)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 33,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "What would you do if you disagreed with your manager?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Conflict Resolution sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What would you do if you disagreed with your manager?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Tell me about a time you were highly motivated to achieve a goal.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you stay motivated during repetitive tasks?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00740",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 87,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Explain actor-model concurrency versus communicating sequential processes (CSP) in distributed engines.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Explain actor-model concurrency versus communicating sequential processes (CSP) in distributed engines.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What does synchronous execution mean compared to asynchronous execution?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00738",
+    "role": "Full Stack Engineer",
+    "target_competency": "Motivation (STAR-Based)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 31,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "What motivates you to come to work every day?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Motivation sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What motivates you to come to work every day?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you mentored someone.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00678",
+    "role": "Backend Engineer",
+    "target_competency": "Career Goals (Open-Ended)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 61,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "mid",
+    "optimal_question": "Where do you see yourself in 5 years?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Where do you see yourself in 5 years?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you react to sudden changes in priorities?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you stay updated with industry trends?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00266",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 90,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you profile and debug memory leaks, coroutine starvation, and thread contention in high-scale async services?",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "How do you profile and debug memory leaks, coroutine starvation, and thread contention in high-scale async services?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a deadlock in concurrent programming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00027",
+    "role": "Backend Engineer",
+    "target_competency": "Culture Fit (STAR-Based)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 84,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you align with our company values?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you align with our company values?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you organize and prioritize your daily tasks?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you motivate others in a leadership role?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00198",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (Behavioral)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 67,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "What kind of growth opportunities are you looking for?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you contribute to a positive team environment?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you motivate others in a leadership role?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00228",
+    "role": "Full Stack Engineer",
+    "target_competency": "Leadership (STAR-Based)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 50,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "mid",
+    "optimal_question": "Tell me about a time you mentored someone.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Tell me about a time you mentored someone.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What type of company culture do you thrive in?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you build trust with new teammates?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01151",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 88,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Explain Write-Ahead Logging (WAL), MVCC vacuuming, and lock contention optimization under high write throughput.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Explain Write-Ahead Logging (WAL), MVCC vacuuming, and lock contention optimization under high write throughput.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Compare Redux Toolkit, Zustand, and React Context API for complex application state.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a primary key versus a unique foreign key constraint?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00684",
+    "role": "Backend Engineer",
+    "target_competency": "Leadership (Behavioral)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 88,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you delegate tasks effectively?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you delegate tasks effectively?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What would you do if you disagreed with your manager?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you handle disagreements within a team?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01148",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 52,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "junior",
+    "optimal_question": "Can you walk through what happens when an event handler calls setState multiple times?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Can you walk through what happens when an event handler calls setState multiple times?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01006",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 77,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the purpose of HTTP status codes: 200, 201, 400, 401, 403, and 500.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00516",
+    "role": "Backend Engineer",
+    "target_competency": "Career Goals (Open-Ended)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 60,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "mid",
+    "optimal_question": "Where do you see yourself in 5 years?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Where do you see yourself in 5 years?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What would you do if you disagreed with your manager?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What makes a good leader in your opinion?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00378",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 50,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "mid",
+    "optimal_question": "Describe a project where teamwork was essential to success.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are your expectations from leadership in a company?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Do you prefer working independently or in teams? Why?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00882",
+    "role": "Backend Engineer",
+    "target_competency": "Work Style (Open-Ended)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 85,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you ensure productivity when working remotely?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Work Style sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you ensure productivity when working remotely?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What skills do you hope to develop in your next role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00206",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 53,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "What is the difference between I/O bound tasks and CPU bound tasks?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What is the difference between I/O bound tasks and CPU bound tasks?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you profile and debug memory leaks, coroutine starvation, and thread contention in high-scale async services?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00573",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 52,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you handle disagreements within a team?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you handle disagreements within a team?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What skills do you hope to develop in your next role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00966",
+    "role": "Full Stack Engineer",
+    "target_competency": "Motivation (STAR-Based)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 76,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Why do you want to work at our company?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Motivation sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Why do you want to work at our company?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you organize and prioritize your daily tasks?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe a time you failed and what you learned from it.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00584",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 91,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design an enterprise Role-Based and Attribute-Based Access Control (RBAC/ABAC) engine with distributed token revocation.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design an enterprise Role-Based and Attribute-Based Access Control (RBAC/ABAC) engine with distributed token revocation.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Why should passwords never be stored in plain text and what is password salting?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00434",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 40,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "junior",
+    "optimal_question": "How does the Same-Origin Policy (SOP) protect web applications?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How does the Same-Origin Policy (SOP) protect web applications?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How would you detect and mitigate automated credential stuffing and distributed DDoS attacks at layer 7?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00658",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 48,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "How do query parameters differ from path parameters and request body in REST design?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How do query parameters differ from path parameters and request body in REST design?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design an event-driven microservices architecture using Apache Kafka with outbox pattern for distributed consistency.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00106",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 89,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the purpose of a load balancer in web architecture?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00001",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 34,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's clarify the fundamentals: where should sensitive API tokens be stored in a web browser?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's clarify the fundamentals: where should sensitive API tokens be stored in a web browser?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain zero-trust architecture principles and how mTLS ensures secure service-to-service communication.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00083",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 73,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between a process and a thread?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00372",
+    "role": "Backend Engineer",
+    "target_competency": "Leadership (Behavioral)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 38,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "senior",
+    "optimal_question": "Describe a time you led a project or team.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a time you led a project or team.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Tell me about a conflict you had with a coworker and how you resolved it.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What motivates you to come to work every day?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00097",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 66,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "mid",
+    "optimal_question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the purpose of HTTP status codes: 200, 201, 400, 401, 403, and 500.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00655",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 76,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does consistent hashing work and how does it prevent hot spots in distributed cache clusters?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a deadlock in concurrent programming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00505",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 37,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "junior",
+    "optimal_question": "Why are idempotent API retries critical when network timeouts occur?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Why are idempotent API retries critical when network timeouts occur?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you design a globally distributed leaderboard handling 100k updates/second with event-driven streaming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00856",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 43,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "What is the role of HTTPS / TLS and what attacks occur if traffic is unencrypted?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What is the role of HTTPS / TLS and what attacks occur if traffic is unencrypted?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain zero-trust architecture principles and how mTLS ensures secure service-to-service communication.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00718",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 90,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how B-Tree indexes work internally in PostgreSQL and why index selectivity matters.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the difference between props and state in React with an example.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00574",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 44,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain actor-model concurrency versus communicating sequential processes (CSP) in distributed engines.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00744",
+    "role": "Full Stack Engineer",
+    "target_competency": "Culture Fit (Behavioral)",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 90,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "What type of company culture do you thrive in?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What type of company culture do you thrive in?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you deal with feedback that you disagree with?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you mentored someone.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00551",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 40,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "Why should you avoid SELECT * in production database queries?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Why should you avoid SELECT * in production database queries?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design a horizontally partitioned (sharded) relational database architecture handling millions of queries per second.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00225",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 49,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "mid",
+    "optimal_question": "Describe a project where teamwork was essential to success.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Where do you see yourself in 5 years?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you had to learn something completely new quickly.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00623",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 90,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how B-Tree indexes work internally in PostgreSQL and why index selectivity matters.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the difference between props and state in React with an example.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00105",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (STAR-Based)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 41,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "What are your long-term career aspirations?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What are your long-term career aspirations?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you motivate others in a leadership role?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you organize and prioritize your daily tasks?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00874",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 80,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Explain React Fiber architecture, render vs commit phases, and how you prevent frame drops in 60fps UIs.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Explain React Fiber architecture, render vs commit phases, and how you prevent frame drops in 60fps UIs.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the Virtual DOM and why is it faster than direct DOM manipulation?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01044",
+    "role": "Full Stack Engineer",
+    "target_competency": "Conflict Resolution (Behavioral)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 61,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "senior",
+    "optimal_question": "Describe a time you handled a difficult situation professionally.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Conflict Resolution sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you felt out of place in a workplace culture.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00125",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 62,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does consistent hashing work and how does it prevent hot spots in distributed cache clusters?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between a process and a thread?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00981",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (STAR-Based)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 71,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "senior",
+    "optimal_question": "What role do you usually play in group settings?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you stay motivated during repetitive tasks?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What's the most significant change you've had to adapt to at work?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00872",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 92,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a distributed consensus mechanism comparing Raft and Paxos for replicated state machines.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the purpose of a load balancer in web architecture?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00688",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 53,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's step back: why does blocking code inside an async coroutine freeze the entire event loop?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's step back: why does blocking code inside an async coroutine freeze the entire event loop?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain actor-model concurrency versus communicating sequential processes (CSP) in distributed engines.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00454",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 81,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How would you implement rate limiting with Redis sliding-window counter in an API gateway?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the difference between props and state in React with an example.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00473",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 49,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "What is the difference between I/O bound tasks and CPU bound tasks?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What is the difference between I/O bound tasks and CPU bound tasks?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you build a lock-free ring buffer for ultra-low latency inter-process communication?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00627",
+    "role": "Backend Engineer",
+    "target_competency": "Team Collaboration (STAR-Based)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 67,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you build trust with new teammates?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you build trust with new teammates?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you felt out of place in a workplace culture.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01075",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 50,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How do thread pools prevent the overhead of spawning new threads for every request?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you profile and debug memory leaks, coroutine starvation, and thread contention in high-scale async services?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00834",
+    "role": "Backend Engineer",
+    "target_competency": "Culture Fit (Situational)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 30,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you contribute to a positive team environment?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you contribute to a positive team environment?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you build trust with new teammates?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00778",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 34,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "What are pure components in React and how does useMemo help optimize performance?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What are pure components in React and how does useMemo help optimize performance?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design a client-side offline-first sync engine with IndexedDB, conflict resolution, and optimistic UI updates.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00104",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 72,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "mid",
+    "optimal_question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is CORS and why does the browser enforce it?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00186",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (Behavioral)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 49,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "What kind of growth opportunities are you looking for?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What kind of growth opportunities are you looking for?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you felt out of place in a workplace culture.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you stay motivated during repetitive tasks?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00408",
+    "role": "Backend Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 33,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "mid",
+    "optimal_question": "Describe a project where teamwork was essential to success.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Do you prefer working independently or in teams? Why?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00036",
+    "role": "Full Stack Engineer",
+    "target_competency": "Culture Fit (Behavioral)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 57,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "mid",
+    "optimal_question": "What are your expectations from leadership in a company?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What are your expectations from leadership in a company?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Tell me about a time you were highly motivated to achieve a goal.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a conflict you had with a coworker and how you resolved it.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00873",
+    "role": "Backend Engineer",
+    "target_competency": "Culture Fit (Behavioral)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 92,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "What type of company culture do you thrive in?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Culture Fit sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What type of company culture do you thrive in?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you handle disagreements within a team?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a time you were highly motivated to achieve a goal.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00299",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 54,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "How do query parameters differ from path parameters and request body in REST design?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "How do query parameters differ from path parameters and request body in REST design?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Architect a zero-downtime blue-green API deployment pipeline handling breaking database schema migrations.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00393",
+    "role": "Full Stack Engineer",
+    "target_competency": "Motivation (STAR-Based)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 35,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "What motivates you to come to work every day?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Motivation sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What motivates you to come to work every day?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What's the most significant change you've had to adapt to at work?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you ensure productivity when working remotely?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00560",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 30,
+    "previous_weakness": "Could not explain the difference between WebSockets and polling",
+    "target_difficulty": "junior",
+    "optimal_question": "What are pure components in React and how does useMemo help optimize performance?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What are pure components in React and how does useMemo help optimize performance?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do connection pooling engines like PgBouncer prevent thread exhaustion under high concurrency?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain React Fiber architecture, render vs commit phases, and how you prevent frame drops in 60fps UIs.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00078",
+    "role": "Backend Engineer",
+    "target_competency": "Adaptability (Open-Ended)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 38,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "Tell me about a time you had to learn something completely new quickly.",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Adaptability sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "Tell me about a time you had to learn something completely new quickly.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you respond when a teammate isn't pulling their weight?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe a project where teamwork was essential to success.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00821",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 52,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review the basics: what is latency versus throughput in backend systems?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review the basics: what is latency versus throughput in backend systems?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you design a globally distributed leaderboard handling 100k updates/second with event-driven streaming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00270",
+    "role": "Backend Engineer",
+    "target_competency": "Leadership (Open-Ended)",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 37,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "senior",
+    "optimal_question": "What makes a good leader in your opinion?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Leadership sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What makes a good leader in your opinion?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What are your long-term career aspirations?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00246",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (STAR-Based)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 71,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "junior",
+    "optimal_question": "What are your long-term career aspirations?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What are your long-term career aspirations?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Do you prefer working independently or in teams? Why?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What makes a good leader in your opinion?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00469",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 73,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain the CAP theorem and the trade-offs between consistency and availability during network partitions.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is vertical scaling versus horizontal scaling?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00304",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 52,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review the basics: what is latency versus throughput in backend systems?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review the basics: what is latency versus throughput in backend systems?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How do you design a globally distributed leaderboard handling 100k updates/second with event-driven streaming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00386",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 30,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review foundational concepts: why can unindexed WHERE clauses cause full table scans?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review foundational concepts: why can unindexed WHERE clauses cause full table scans?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design a horizontally partitioned (sharded) relational database architecture handling millions of queries per second.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00371",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 40,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "junior",
+    "optimal_question": "Why should you avoid SELECT * in production database queries?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Why should you avoid SELECT * in production database queries?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do React 18 concurrent features like startTransition and useDeferredValue improve UI responsiveness?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain Write-Ahead Logging (WAL), MVCC vacuuming, and lock contention optimization under high write throughput.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01028",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Python, FastAPI, PostgreSQL, Docker, Redis",
+    "previous_score": 37,
+    "previous_weakness": "Confused horizontal scaling with vertical hardware upgrades",
+    "target_difficulty": "junior",
+    "optimal_question": "Can you walk through what happens when an event handler calls setState multiple times?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Can you walk through what happens when an event handler calls setState multiple times?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you architect a secure JWT authentication flow with short-lived access tokens and HttpOnly refresh tokens?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00211",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 48,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review the basics: what triggers a component re-render in React and how do you prevent unnecessary renders?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review the basics: what triggers a component re-render in React and how do you prevent unnecessary renders?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How would you architect a micro-frontend architecture with module federation and cross-app state synchronization?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00970",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 84,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Design an event-driven microservices architecture using Apache Kafka with outbox pattern for distributed consistency.",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Design an event-driven microservices architecture using Apache Kafka with outbox pattern for distributed consistency.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What are ACID transactions and how do database isolation levels (Read Committed vs Serializable) prevent anomalies?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is CORS and why does the browser enforce it?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00406",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 59,
+    "previous_weakness": "Confused JWT refresh token rotation with session cookies",
+    "target_difficulty": "mid",
+    "optimal_question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does consistent hashing work and how does it prevent hot spots in distributed cache clusters?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is a deadlock in concurrent programming?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01195",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 80,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "How do you handle distributed tracing, latency budgets, and cascading failures in a high-throughput API mesh?",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "How do you handle distributed tracing, latency budgets, and cascading failures in a high-throughput API mesh?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain how B-Tree indexes work internally in PostgreSQL and why index selectivity matters.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What are the primary HTTP methods and how do idempotency rules apply to GET vs POST vs PUT?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00506",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 79,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "How would you implement rate limiting with Redis sliding-window counter in an API gateway?",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "How would you implement rate limiting with Redis sliding-window counter in an API gateway?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is CORS and why does the browser enforce it?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00539",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 80,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is vertical scaling versus horizontal scaling?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00235",
+    "role": "Full Stack Engineer",
+    "target_competency": "Application Security & Authentication",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 47,
+    "previous_weakness": "Incomplete explanation of React reconciliation and keys",
+    "target_difficulty": "junior",
+    "optimal_question": "What is the role of HTTPS / TLS and what attacks occur if traffic is unencrypted?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "What is the role of HTTPS / TLS and what attacks occur if traffic is unencrypted?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design a robust idempotency-key mechanism for financial payment API endpoints?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How would you detect and mitigate automated credential stuffing and distributed DDoS attacks at layer 7?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00575",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 61,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the difference between a process and a thread?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00510",
+    "role": "Full Stack Engineer",
+    "target_competency": "Team Collaboration (Open-Ended)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 35,
+    "previous_weakness": "Did not mention connection pooling or database lock contention",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you handle disagreements within a team?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you handle disagreements within a team?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Why do you want to work at our company?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "How does this role fit into your career path?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00382",
+    "role": "Full Stack Engineer",
+    "target_competency": "RESTful & Real-Time API Architecture",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 58,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "mid",
+    "optimal_question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Compare Redux Toolkit, Zustand, and React Context API for complex application state.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Explain the purpose of HTTP status codes: 200, 201, 400, 401, 403, and 500.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_01047",
+    "role": "Backend Engineer",
+    "target_competency": "Team Collaboration (STAR-Based)",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 45,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "How do you build trust with new teammates?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Team Collaboration sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How do you build trust with new teammates?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Do you prefer working independently or in teams? Why?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What role do you usually play in group settings?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00312",
+    "role": "Backend Engineer",
+    "target_competency": "Career Goals (Situational)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 95,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "How does this role fit into your career path?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "How does this role fit into your career path?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Tell me about a conflict you had with a coworker and how you resolved it.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00507",
+    "role": "Full Stack Engineer",
+    "target_competency": "Career Goals (STAR-Based)",
+    "candidate_skills": "Java, Spring Boot, Kafka, MySQL, Microservices",
+    "previous_score": 79,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "junior",
+    "optimal_question": "What are your long-term career aspirations?",
+    "pedagogical_reason": "Dataset benchmark: Evaluates Career Goals sourced from HF Ankshi/interview dataset.",
+    "ranking_candidates": [
+      {
+        "question": "What are your long-term career aspirations?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What's the most significant change you've had to adapt to at work?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Describe a time you handled a difficult situation professionally.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00878",
+    "role": "Full Stack Engineer",
+    "target_competency": "Database Optimization & SQL Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 44,
+    "previous_weakness": "Missed concurrency race conditions and thread safety principles",
+    "target_difficulty": "junior",
+    "optimal_question": "Let's review foundational concepts: why can unindexed WHERE clauses cause full table scans?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Let's review foundational concepts: why can unindexed WHERE clauses cause full table scans?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Explain Cross-Site Scripting (XSS) versus Cross-Site Request Forgery (CSRF) and how to mitigate both.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Design a horizontally partitioned (sharded) relational database architecture handling millions of queries per second.",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00169",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 80,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "senior",
+    "optimal_question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+    "pedagogical_reason": "Escalation: High previous performance triggers advanced system design question.",
+    "ranking_candidates": [
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How does the Python asyncio event loop work internally and how does cooperative multitasking differ from OS threads?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the purpose of a load balancer in web architecture?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00995",
+    "role": "Backend Engineer",
+    "target_competency": "Distributed Systems & Scalability",
+    "candidate_skills": "JavaScript, TypeScript, React, Node.js, MongoDB",
+    "previous_score": 40,
+    "previous_weakness": "Struggled with SQL indexing and query execution plan details",
+    "target_difficulty": "junior",
+    "optimal_question": "Why are idempotent API retries critical when network timeouts occur?",
+    "pedagogical_reason": "Remediation: Low previous score requires reinforcing core foundational concepts.",
+    "ranking_candidates": [
+      {
+        "question": "Why are idempotent API retries critical when network timeouts occur?",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "What is the Global Interpreter Lock (GIL) in CPython and how do you achieve true CPU parallelism?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "Architect a multi-region active-active database failover system with conflict-free replicated data types (CRDTs).",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00577",
+    "role": "Backend Engineer",
+    "target_competency": "Concurrency, Async IO & Multi-Threading",
+    "candidate_skills": "Python, Django, Celery, Redis, SQLite",
+    "previous_score": 75,
+    "previous_weakness": "None identified - solid fundamental answer",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain race conditions, mutex locks, and semaphores when sharing state across threads.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "How do you design an asynchronous background worker pool with Celery / Redis and handle worker crash retries?",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What does synchronous execution mean compared to asynchronous execution?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  },
+  {
+    "id": "q_sample_00592",
+    "role": "Full Stack Engineer",
+    "target_competency": "Frontend State Management & React Internals",
+    "candidate_skills": "Go, Kubernetes, gRPC, PostgreSQL, AWS",
+    "previous_score": 57,
+    "previous_weakness": "Overlooked distributed transaction rollback with Saga pattern",
+    "target_difficulty": "mid",
+    "optimal_question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+    "pedagogical_reason": "Standard progression: Balanced mid-level question assessing practical engineering trade-offs.",
+    "ranking_candidates": [
+      {
+        "question": "Explain how React reconciliation and the diffing algorithm handle keys in dynamic lists.",
+        "label": 1.0,
+        "type": "optimal"
+      },
+      {
+        "question": "Compare WebSockets, Server-Sent Events (SSE), and Long Polling for real-time notifications.",
+        "label": 0.0,
+        "type": "wrong_topic"
+      },
+      {
+        "question": "What is the Virtual DOM and why is it faster than direct DOM manipulation?",
+        "label": 0.0,
+        "type": "wrong_difficulty"
+      }
+    ]
+  }
+]

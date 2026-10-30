@@ -1,0 +1,74 @@
+# ==========================================
+# Root .gitignore for AI Interview Coach
+# Covers Backend (Python / FastAPI / PyTorch),
+# Frontend (React / Vite / Node), and Environment
+# ==========================================
+
+# Environment variables & secrets (NEVER commit secrets!)
+.env
+.env.*
+*.env
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Databases & local persistent storage
+*.db
+*.sqlite
+*.sqlite3
+interview_coach.db
+
+# Node.js & Frontend dependencies / build outputs
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configurations
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+

@@ -1,0 +1,62 @@
+{
+  "Baseline (Logistic Regression)": {
+    "val": {
+      "top1_accuracy": 0.7,
+      "mrr": 0.836111111111111,
+      "ndcg_at_3": 0.8783681132738158,
+      "total_queries": 120,
+      "accuracy": 0.7805555555555556,
+      "f1": 0.5269461077844312,
+      "roc_auc": 0.8659722222222223
+    },
+    "test": {
+      "top1_accuracy": 0.6333333333333333,
+      "mrr": 0.7902777777777777,
+      "ndcg_at_3": 0.8439436986607203,
+      "total_queries": 120,
+      "accuracy": 0.7638888888888888,
+      "f1": 0.4970414201183432,
+      "roc_auc": 0.8092708333333333
+    }
+  },
+  "Neural MLP Ranker": {
+    "val": {
+      "top1_accuracy": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0,
+      "total_queries": 120,
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "test": {
+      "top1_accuracy": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_3": 1.0,
+      "total_queries": 120,
+      "accuracy": 0.9916666666666667,
+      "f1": 0.9875518672199171,
+      "roc_auc": 0.9996527777777778
+    }
+  },
+  "Gradient Boosting Ranker": {
+    "val": {
+      "top1_accuracy": 0.8833333333333333,
+      "mrr": 0.9347222222222221,
+      "ndcg_at_3": 0.951486398184526,
+      "total_queries": 120,
+      "accuracy": 0.875,
+      "f1": 0.7715736040609137,
+      "roc_auc": 0.9500347222222222
+    },
+    "test": {
+      "top1_accuracy": 0.9,
+      "mrr": 0.9416666666666667,
+      "ndcg_at_3": 0.9565464876785729,
+      "total_queries": 120,
+      "accuracy": 0.8722222222222222,
+      "f1": 0.7628865979381443,
+      "roc_auc": 0.9290972222222224
+    }
+  }
+}
